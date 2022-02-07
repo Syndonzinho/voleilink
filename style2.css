@@ -1,0 +1,42 @@
+	body{
+		background-color: #bcd9e7;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	h1{
+		color:#061a23;
+	}
+	
+	.cor3{
+	background-color: #8fc0d8;
+	}
+
+	
+	img{
+		width: 400px;
+	}
+	
+	.rodape_norm{
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-around;
+	}
+	
+	.art_rod{
+	width: 33.33%;
+	margin: 10px;
+	}
+	
+	.n_e{display: inline-block; width: 50%;}
+	.n_d{display: inline-block; position: absolute;}
+	
+	.id{
+	box-sizing: border-box;
+	}
+	
+	main{
+	width:100%;
+	padding:5px;
+	margin:2px;
+	box-sizing:border-box;
+	}

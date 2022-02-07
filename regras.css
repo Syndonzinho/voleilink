@@ -1,0 +1,65 @@
+body{
+	background-color: #bcd9e7;
+	font-family: 'Poppins', sans-serif;
+}
+
+.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+  
+.center {
+ 	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	width:500px;
+}
+
+.cor3{
+	background-color: #8fc0d8;
+}
+
+h1{
+	color:#061a23;
+	text-align:center;
+}
+ 
+h2{
+	color: #0f3c4c;
+	text-align: center;
+}
+h3{
+	color:#ffff;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.rodape_norm{
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-around;
+}
+
+.art_rod{
+	width: 33.33%;
+	margin: 10px;
+}
+		
+.n_e{display: inline-block; width: 50%;}
+.n_d{display: inline-block; position: absolute;}
+		
+.id{
+	box-sizing: border-box;
+}
+		
+main{
+	width:100%;
+	padding:5px;
+	margin:2px;
+	box-sizing:border-box;
+}

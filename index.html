@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="styleav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"> </script>
+	<style>
+		body{
+		background-color: #bcd9e7;
+		font-family: 'Poppins', sans-serif;
+		}
+		
+		.centro{
+		text-align:center;
+		}
+		
+		.cor3{
+		background-color: #8fc0d8;
+		}
+		
+		.rodape_norm{
+		color: rgb(255, 255, 255);
+		display: flex;
+		justify-content: space-around;
+		}
+		.art_rod{
+		width: 33.33%;
+		margin: 10px;
+		}
+		
+		.n_e{display: inline-block; width: 50%;}
+		.n_d{display: inline-block; position: absolute;}
+		
+		.id{
+		box-sizing: border-box;
+		}
+		
+		main{
+		width:100%;
+		padding:5px;
+		margin:2px;
+		box-sizing:border-box;
+		}
+	</style>
+	<style>
+		.footer {
+		  position: fixed;
+		  left: 0;
+		  bottom: 0;
+		  width: 100%;
+		  height: 45px;
+		  background-color: blue;
+		  color: white;
+		  text-align: center;
+		}
+		</style>
+		
+	<title>Projeto Integrador</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light cor3">
+		<div class="container-fluid">
+				<img src="70946.png" alt="Logo" width="50px" height="50px">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Menu
+						</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<li><a class="dropdown-item" href="história.html">História do Voleibol</a></li>
+					<li><a class="dropdown-item" href="regras.html">Regras Gerais </a></li>
+
+				</ul>
+					</li>
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Torneios
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<li><a class="dropdown-item" href="torneios.html">Inscrição para torneios</a></li>
+					<li><a class="dropdown-item" href="crieseutorneio.html">Crie seu torneio</a></li>
+					<li><a class="dropdown-item" href="indicações.html"> Indicações/Inspiração </a></li>
+					</ul>
+					<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
+					</li>
+					
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cadastro.html">Cadrastro</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="loginpi.html">Login</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<h1 class="centro" style="color: blue; margin-bottom: 120px; margin-top: 50px;">VoleiLink: Nós conectamos você ao vôlei! </h1>
+	<p class="centro" style="margin-bottom: 250px;">O VoleiLink tem a intenção de facilitar o acesso e reconhecimento de campeonatos amadores de vôlei.<br> Com nossas funções é possível criar e inscrever-se em torneios próximos</p>
+	<h3 class="centro">Crie campeonatos!</h3>
+	<p class="centro">Utilizando a função <strong>"Crie seu torneio"</strong> e informando seu nome, o local da quadra, data, premiações, 
+		regras e cliando em "Criar Torneio" você terá criado seu próprio torneio amador personalizado no qual outras pessoas de uma região próxima ao local do torneio poderão se increver.</p>
+
+	<h3 class="centro">Inscreva-se!</h3>
+	<p class="centro">Utilizando a função <strong>"Inscrição para torneios"</strong> e informando seu nome, email, telefone, idade, cidade, estado, endereço e clicando em enviar 
+		você estará cadastrado em nosso site, e será automaticamente informado por email quando um torneio próximo a sua região for aberto!</p>
+	
+	<br><br><br><br>
+	<h1>O que estão achando do site</h1>
+
+    <section class="cards" style="width: 531px;">
+        <div class="card">
+            <img class="user" src="gui.png" alt="" width="500px">
+            <h3>Guilherme</h3>
+            <div class="stars">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+            </div>
+
+            <P>Um belo site, otimas recomendações e eu já havia me inscrito a uns meses atrás em um torneio e me inscrevi novamente pois adorei! 10 estrelas se pudesse</P>
+
+        </div>
+
+        <div class="card" style="width: 531px;">
+            <img class="user" src="julia.png" alt="" width="500px">
+            <h3>Julia</h3>
+            <div class="stars">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+            </div>
+
+            <P>adoro ficar por dentro das novidades sobre voleibol, e esse site me mostra tudo que procuro sempre! Sempre recomendo a todos!</P>
+            
+        </div>
+        
+        <div class="card" style="width: 531px;">
+            <img class="user" src="pedro.png" alt="" width="500px">
+            <h3>Pedro</h3>
+            <div class="stars">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+                <img class="star" src="estrela.png" alt="">
+            </div>
+
+            <P> Otimas noticias, gosto muito de acompanhar os torneios que acontecem na minha cidade, sou pessimo jogando, porem adoro assistir!</P>
+        
+        </div>
+    </section>
+	</main>
+	</footer>	
+	<div class="footer">
+		<p>@Todos os direitos reservados<br>
+			Site desenvolvido por Ariane, Gabriel, Lucas e Dominic
+			</p>
+	</div>
+
+	
+	
+</body>
+</html>

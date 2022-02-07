@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+}
+
+.cor3{
+	background-color: #8fc0d8;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card .user{
+    width: 100%;
+  
+    border-radius: 50px;
+    margin: 15px;
+}
+
+ .card h3{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-bottom: 5px; 
+}
+
+.star{
+    width: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgba(0, -0, -0, 0.171);
+
+}
+
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+.rodape_norm{
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-around;
+}
+.art_rod{
+	width: 33.33%;
+	margin: 10px;
+}
+		
+.n_e{display: inline-block; width: 50%;}
+.n_d{display: inline-block; position: absolute;}
+		
+.id{
+	box-sizing: border-box;
+}
+		
+main{
+	width:100%;
+	padding:5px;
+	margin:2px;
+	box-sizing:border-box;
+}
